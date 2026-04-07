@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Big O Notation
   - Algorithms
-  - Computer Science
+  - Big O Notation
   - Complexity
+  - Computer Science
 url: >-
   https://raw.githubusercontent.com/api-evangelist/big-o-notation/refs/heads/main/apis.yml
 created: '2025-01-01'
