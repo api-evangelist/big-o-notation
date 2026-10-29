@@ -1,4 +1,4 @@
-# Big O Notation (big-o-notation)
+# Big O Notation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,59 +66,26 @@
 
 Big O Notation is a mathematical notation used in computer science to describe the performance or complexity of algorithms, providing a way to classify algorithms by how their runtime or space requirements grow as input size grows. It is foundational to algorithm design, API performance benchmarking, and software engineering education.
 
-**URL:** [https://en.wikipedia.org/wiki/Big_O_notation](https://en.wikipedia.org/wiki/Big_O_notation)
+**Areas:** Algorithms · Big O Notation · Complexity · Computer Science · Performance · Data Structures
 
-## Tags:
+## Big O Notation on APIs.io
 
- - Algorithms, Big O Notation, Complexity, Computer Science, Performance, Data Structures
+Everything profiled for Big O Notation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/big-o-notation/](https://apis.io/providers/big-o-notation/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## API Evangelist rating
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-21
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-## Complexity Classes
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-| Notation | Name | Description |
-|----------|------|-------------|
-| O(1) | Constant Time | Runtime does not change with input size. Example: hash table lookups. |
-| O(log n) | Logarithmic Time | Runtime grows logarithmically with input. Example: binary search. |
-| O(n) | Linear Time | Runtime grows linearly with input size. Example: linear search. |
-| O(n log n) | Linearithmic Time | Runtime grows as n multiplied by log n. Example: merge sort. |
-| O(n²) | Quadratic Time | Runtime grows quadratically with input size. Example: bubble sort. |
-| O(2^n) | Exponential Time | Runtime doubles with each additional input element. Example: recursive Fibonacci. |
-| O(n!) | Factorial Time | Runtime grows factorially. Example: brute-force traveling salesman. |
+## How this profile is made
 
-## Use Cases
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Algorithm Selection | Choosing the most efficient algorithm for a given problem based on complexity class. |
-| API Performance Benchmarking | Analyzing API endpoint performance characteristics under varying data sizes. |
-| Code Review | Evaluating the time and space complexity of code changes during review. |
-| Database Query Optimization | Understanding complexity of database operations to optimize query performance. |
-| Scalability Analysis | Predicting how software will perform as data volumes grow at scale. |
-| Interview Preparation | Preparing for technical interviews requiring algorithm complexity analysis. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Big O Notation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Vocabulary
+## Open an issue
 
-| Term | Definition |
-|------|------------|
-| Time Complexity | Measure of computation time as a function of input size. |
-| Space Complexity | Measure of memory usage as a function of input size. |
-| Best Case | Minimum time required for algorithm execution (Omega notation). |
-| Worst Case | Maximum time required for algorithm execution (Big O notation). |
-| Average Case | Expected time required for algorithm execution (Theta notation). |
-| Asymptotic Analysis | Behavior of algorithm as input size approaches infinity. |
-| Amortized Analysis | Average performance of operations over time accounting for occasional expensive operations. |
-
-## References
-
-- [Wikipedia - Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Big O Cheat Sheet](https://www.bigocheatsheet.com)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/big-o-notation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
